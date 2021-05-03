@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electronik Automation Web</title>
+
+    <!--Inicio del  SLIDERS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- Fin del SLIDERS -->
+
+<!-- Font Awesome:ICONOS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Mis estilos -->
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+ <header>
+        <div class="header-inner">
+            <a href="#" id="logo">
+           <img src="img/pics/MilogoFinal.png" alt="Faztweb.com">
+            </a>
+
+         <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+
+           <ul>
+             <li><a href="index.html" class="current">Inicio</a></li>
+             <li><a href="#services">Servicios</a></li>
+             <li><a href="#contact">Contacto</a></li>
+           </ul>
+
+
+        </nav>
+
+        </div>
+      </header>
+
+
+      <!-- SLIDER -->
+
+   <div id="slide-wrap">
+     <section class="slider">
+       <ul class="EA01">
+         <li><img src="img/slider/EA01.png" alt="Slider uno"></li>
+         <li><img src="img/slider/EA04.jpg" alt="Slider dos"></li>
+         <li><img src="img/slider/EA02.jpg" alt="Slider tres"></li>
+        
+       </ul>
+       </section>
+    </div>
+
+     <div class="clearfix-padding"></div>
+
+      <!-- SERVICIOS -->
+
+    <div class="one-two-first" id="services">
+      <div class="servicio1">
+
+        <h3>PLC's y HMI's</h3>
+        <p>Programamos PLC (Logo y S7 1200) y HMI de la marca Siemens </p>
+
+      </div>
+      
+      <img src="img/pics/plcOK.jpg" alt="">
+      
+     
+
+
+    </div>
+
+    <div class="one-two-first">
+      <div class="servicio1">
+
+        <h3>Variadores de Frecuencia</h3>
+        <p>Programamos variadores de frecuencia de las marcas Siemens, Allen Bradley, ABB, WEG entre otros</p>
+
+      </div>
+      
+      <img src="img/pics/VFDOK.jpg" alt="">
+      
+
+        
+
+      </div>
+
+    <div class="clearfix-padding"></div>
+
+    <div class="one-two-second">
+      <div class="servicio1">
+        <h3>Instrumentacion Industrial</h3>
+      <p>Configuramos y calibramos instrumentos industriales (transmisores de presion, temperatura, nivel, etc).</p>
+
+      </div>
+      
+      <img src="img/pics/instOK.jpg" alt="">
+      
+     
+    </div>
+
+
+    <div class="one-two-second">
+      <div class="servicio1">
+        <h3>Tableros Electricos</h3>
+        <p>Diseñamos tableros electricos de baja tension, de acuerdo a la norma internacional IEC 61439</p>
+
+      </div>
+      
+      <img src="img/pics/EPLANOK.png" alt="">
+      
+
+    </div>
+
+
+
+
+     <footer class="second-footer" id="contact">
+      <p> &copy; Mas informacion al correo: oscarmecatronico@gmail.com</p>
+    </footer>
+
+
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.EA01').bxSlider({
+        mode: 'fade',
+      });
+      $('.EA04').bxSlider({
+        mode: 'fade',
+      });
+      $('.EA02').bxSlider({
+        mode: 'fade',
+      });
+      
+
+    });
+  </script>
+
+</body>
+</html>
